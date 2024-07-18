@@ -23,9 +23,6 @@ define('CNCRM_DB_VERSION', '1.0');
 define('CNCRM_PLUGIN_PATH', plugin_dir_path(__FILE__));
 define('CNCRM_CURRENT_THEME', get_stylesheet_directory());
 
-// Load plugin textdomain for translations (if applicable)
-// load_plugin_textdomain('cncrm', false, basename(dirname(__FILE__)) . '/languages');
-
 // Include necessary files
 require_once plugin_dir_path(__FILE__) . 'includes/cncrm-integration-ui.php';
 require_once plugin_dir_path(__FILE__) . 'includes/cncrm-settings-page.php';
